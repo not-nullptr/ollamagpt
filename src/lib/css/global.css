@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "Sohne";
+	src: url($lib/font/sohne/sohne.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Sohne Kraftig";
+	src: url($lib/font/sohne/sohne-kraftig.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Sohne Halbfett";
+	src: url($lib/font/sohne/sohne-halbfett.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Sohne Mono";
+	src: url($lib/font/sohne/sohne-mono.woff2) format("woff2");
+}
+
+* {
+	font-family: "Sohne", sans-serif;
+	line-height: 20px;
+}
+
+body {
+	--progress-fill: black;
+	--progress-trackcolor: #d6d6d6;
+	overflow-y: hidden;
+}

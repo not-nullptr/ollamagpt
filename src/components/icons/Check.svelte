@@ -1,0 +1,38 @@
+<script lang="ts">
+	export let width = 24;
+	export let height = 24;
+	export let checked = false;
+</script>
+
+{#if checked}
+	<svg
+		{width}
+		{height}
+		viewBox="0 0 20 20"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		class="icon-md flex-shrink-0"
+		><path
+			fill-rule="evenodd"
+			clip-rule="evenodd"
+			d="M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10ZM14.0755 5.93219C14.5272 6.25003 14.6356 6.87383 14.3178 7.32549L9.56781 14.0755C9.39314 14.3237 9.11519 14.4792 8.81226 14.4981C8.50934 14.517 8.21422 14.3973 8.01006 14.1727L5.51006 11.4227C5.13855 11.014 5.16867 10.3816 5.57733 10.0101C5.98598 9.63855 6.61843 9.66867 6.98994 10.0773L8.65042 11.9039L12.6822 6.17451C13 5.72284 13.6238 5.61436 14.0755 5.93219Z"
+			fill="currentColor"
+		></path></svg
+	>
+{:else}
+	<svg
+		{width}
+		{height}
+		viewBox="0 0 20 20"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		class="icon-md flex-shrink-0"
+		><path
+			fill-rule="evenodd"
+			clip-rule="evenodd"
+			d="M10 2C5.58172 2 2 5.58172 2 10C2 14.4183 5.58172 18 10 18C14.4183 18 18 14.4183 18 10C18 5.58172 14.4183 2 10 2ZM0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10Z"
+			fill="currentColor"
+			opacity="0.16"
+		></path></svg
+	>
+{/if}
